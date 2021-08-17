@@ -1,0 +1,85 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    background-color:white ;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    border-top: solid black; 
+    border-bottom: solid black;
+    color: black;
+}
+
+.nav li a:hover {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.foot {
+    text-decoration: underline;
+    color: black;
+    font-weight: 800;
+    font-size: medium;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: black;
+}
+
+div {
+    margin: 50px;
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.company {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+    color: black;
+    border: solid 5px black;
+}
+
+.company:hover {
+    opacity: 75%;
+    border-color: aqua;
+}
+
+.click {
+    background-color: aqua;
+    color: cadetblue;
+    font-size: 20px;
+}

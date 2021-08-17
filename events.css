@@ -1,0 +1,100 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:white ;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    border-top: solid black; 
+    border-bottom: solid black;
+    color: black;
+}
+
+.nav li a:hover {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.foot {
+    text-decoration: underline;
+    color: black;
+    font-weight: 800;
+    font-size: medium;
+    background-color: white;
+}
+
+footer a {
+    color: black;
+}
+
+div {
+    margin: 50px;
+}
+#contact {
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: 500;
+    text-align: center;
+}
+
+div p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.sponsors {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+}
+
+div.gallery {
+    margin: 5px;
+    width: 300px;
+    height: auto;
+    border: 2px solid whitesmoke;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.gallery:hover {
+    opacity: .5;
+    border-color: cyan;
+    background-color: darkcyan;
+}
