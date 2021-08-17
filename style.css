@@ -1,7 +1,9 @@
 body {
     background-color: cornflowerblue;
 }
+/*Need to add background image or video for home page*/
 
+/*The whole nav bar codes*/
 .nav {
     list-style-type: none;
     margin: 0;
@@ -35,6 +37,7 @@ ul {
     font-size: 20px;
 }
 
+/*The whole footer code*/
 .foot {
     text-decoration: underline;
     color: black;
@@ -57,6 +60,7 @@ div {
     margin: 50px;
 }
 
+/*Bigger div code*/
 .companies {
     display: flex;
     flex-wrap: wrap;
@@ -64,6 +68,7 @@ div {
     justify-content: space-between;
 }
 
+/*Smaller inner divs*/
 .company {
     display: flex;
     flex-wrap: wrap;
