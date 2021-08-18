@@ -97,14 +97,19 @@ div {
     background-color: white;
 }
 
-.links {
-    border-style: double;
+.link {
+    border: double 2px gray;
     border-width: 5px;
-    background-color: black;
     background-image: url(/images/concert-2527495_1280.jpg);
     margin: 30px;
-    width: 400px;
+    width: 300px;
     height: 200px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .button a {
