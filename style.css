@@ -1,5 +1,9 @@
 body {
     background-color: cornflowerblue;
+    background-image: url(/images/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 /*Need to add background image or video for home page*/
 
@@ -87,4 +91,33 @@ div {
     background-color: aqua;
     color: cadetblue;
     font-size: 20px;
+}
+
+.main {
+    background-color: white;
+}
+
+.links {
+    border-style: double;
+    border-width: 5px;
+    background-color: black;
+    background-image: url(/images/concert-2527495_1280.jpg);
+    margin: 30px;
+    width: 400px;
+    height: 200px;
+}
+
+.button a {
+    color: white;
+    background-color: darkcyan;
+    text-decoration: none;
+    border-bottom:  solid 2px white;
+    border-top: solid 2px white;
+    padding: 10px 20px;
+    justify-self: center;
+}
+
+.button a:hover {
+    background-color: white;
+    color: darkcyan;
 }
