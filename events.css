@@ -127,6 +127,6 @@ div.desc {
 
 div.gallery:hover {
     opacity: .5;
-    border-color: cyan;
-    background-color: darkcyan;
+    border-color: gold;
+    background-color:black;
 }
