@@ -1,3 +1,41 @@
+/*The whole nav bar codes*/
+.nav {
+  list-style-type: none;
+  margin: 0;
+  background-color:white ;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav li a {
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  border-top: solid black; 
+  border-bottom: solid black;
+  color: black;
+}
+
+.nav li a:hover {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+
+
+
 div.gallery {
     margin: 5px;
     border: 1px;
