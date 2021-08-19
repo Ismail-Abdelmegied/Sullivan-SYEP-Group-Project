@@ -2,6 +2,7 @@ body {
     background-color: cornflowerblue;
 }
 
+/*The whole nav bar codes*/
 .nav {
     list-style-type: none;
     margin: 0;
@@ -36,6 +37,8 @@ ul {
     font-size: 20px;
 }
 
+
+/*The whole footer code*/
 .foot {
     text-decoration: underline;
     color: black;
@@ -51,6 +54,8 @@ footer a {
 div {
     margin: 50px;
 }
+
+/*Only used for one paragraph*/
 #contact {
     font-size: 50px;
     text-decoration: underline;
@@ -64,18 +69,14 @@ div p {
     text-align: center;
 }
 
-.companies {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
+/*Big outter div*/
 .sponsors {
  display: flex;
  flex-wrap: wrap;
  flex-direction: row;
 }
 
+/*Smaller inner divs*/
 div.gallery {
     margin: 5px;
     width: 300px;

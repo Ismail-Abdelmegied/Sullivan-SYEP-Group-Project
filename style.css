@@ -1,12 +1,19 @@
 body {
     background-color: cornflowerblue;
+    background-image: url(/images/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+/*Need to add background image or video for home page*/
 
+/*The whole nav bar codes*/
 .nav {
     list-style-type: none;
     margin: 0;
     background-color:white ;
     overflow: hidden;
+    position: fixed;
     top: 0;
     width: 100%;
     padding: 20px;
@@ -35,6 +42,7 @@ ul {
     font-size: 20px;
 }
 
+/*The whole footer code*/
 .foot {
     text-decoration: underline;
     color: black;
@@ -57,6 +65,7 @@ div {
     margin: 50px;
 }
 
+/*Bigger div code*/
 .companies {
     display: flex;
     flex-wrap: wrap;
@@ -64,6 +73,7 @@ div {
     justify-content: space-between;
 }
 
+/*Smaller inner divs*/
 .company {
     display: flex;
     flex-wrap: wrap;
@@ -82,4 +92,38 @@ div {
     background-color: aqua;
     color: cadetblue;
     font-size: 20px;
+}
+
+.main {
+    background-color: white;
+}
+
+.link {
+    border: double 2px gray;
+    border-width: 5px;
+    background-image: url(/images/concert-2527495_1280.jpg);
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.button a {
+    color: white;
+    background-color: darkcyan;
+    text-decoration: none;
+    border-bottom:  solid 2px white;
+    border-top: solid 2px white;
+    padding: 10px 20px;
+    justify-self: center;
+}
+
+.button a:hover {
+    background-color: white;
+    color: darkcyan;
 }
