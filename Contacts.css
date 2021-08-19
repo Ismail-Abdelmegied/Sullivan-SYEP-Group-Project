@@ -1,3 +1,7 @@
+body {
+  background-color: cornflowerblue;
+}
+
 /*The whole nav bar codes*/
 .nav {
   list-style-type: none;
