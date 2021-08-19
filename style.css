@@ -49,6 +49,7 @@ ul {
     font-weight: 800;
     font-size: medium;
     background-color: white;
+    text-align: center;
 }
 
 footer {
@@ -59,6 +60,31 @@ footer {
 
 footer a {
     color: black;
+}
+
+/*Footer Icons*/
+#fb {
+    color: blue;
+}
+
+#fb:hover {
+    color: midnightblue;
+}
+
+#twit {
+    color: deepskyblue;
+}
+
+#twit:hover {
+    color: midnightblue;
+}
+
+#insta {
+    color: magenta;
+}
+
+#insta:hover {
+    color: midnightblue;
 }
 
 div {

@@ -36,6 +36,7 @@ ul {
 
 
 
+
 div.gallery {
     margin: 5px;
     border: 1px;
@@ -87,3 +88,49 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+
+  /*The whole footer code*/
+.foot {
+  text-decoration: underline;
+  color: black;
+  font-weight: 800;
+  font-size: medium;
+  background-color: white;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: black;
+}
+
+/*Footer Icons*/
+#fb {
+  color: blue;
+}
+
+#fb:hover {
+  color: midnightblue;
+}
+
+#twit {
+  color: deepskyblue;
+}
+
+#twit:hover {
+  color: midnightblue;
+}
+
+#insta {
+  color: magenta;
+}
+
+#insta:hover {
+  color: midnightblue;
+}
