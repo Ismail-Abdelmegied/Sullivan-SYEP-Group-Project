@@ -34,7 +34,10 @@ ul {
 }
 
 
-
+.Staffgallery {
+  margin: 5px;
+  position: absolute;
+}
 
 
 div.gallery {
@@ -133,4 +136,13 @@ footer a {
 
 #insta:hover {
   color: midnightblue;
+}
+
+.Contact-Title {
+  position: relative;
+}
+
+.Address {
+  position: relative;
+  margin: 20px;
 }
